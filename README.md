@@ -42,8 +42,8 @@ A simple image classification and real-time face recognition system based on PyT
 ### 1️⃣ 安装依赖
 ```bash
 pip install torch torchvision opencv-python numpy matplotlib
-
-#### 2. 运行程序
+```
+####2. 运行程序
 - 图像分类训练
 ```bash
 python train_image_classifier.py
