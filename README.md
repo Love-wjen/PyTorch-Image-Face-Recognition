@@ -1,78 +1,101 @@
- PyTorch-Image-Face-Recognition\
-A simple image classification and real-time face recognition system based on PyTorch and OpenCV\
+给你**GitHub 完美排版、直接复制粘贴**的最终版 README.md，换行、格式、代码块、标题全部优化，排版干净，直接贴仓库就能用：
 
- 基于PyTorch的图像分类与人脸识别系统\
- 项目简介\
-本项目基于 Python + PyTorch + OpenCV 开发，集成轻量级卷积神经网络图像分类与实时人脸识别功能。\
-主要包含两大模块：\
-1. 基于CNN的图像分类模型，支持花卉、动物、日常物品等图像识别；\
-2. 基于OpenCV的实时人脸检测，调用摄像头实现动态识别。\
+```md
+# PyTorch-Image-Face-Recognition
+A simple image classification and real-time face recognition system based on PyTorch and OpenCV.
 
-项目结构简洁、代码轻量化，适合深度学习入门、课程设计、实践作业及GitHub作品展示，便于后期拓展升级。\
- 🧩 核心功能\
-- 图像分类：自动识别图片类别，完成图像智能判别\
-- 人脸识别：调用电脑摄像头，实时检测并框选人脸\
-- 模型训练：支持自定义数据集训练模型\
-- 数据可视化：展示训练损失、精度变化曲线\
-- 低门槛拓展：可升级为表情识别、目标检测等功能\
+---
 
- ⚙️ 技术栈\
-- Python 3.8+\
-- PyTorch 2.0+\
-- OpenCV-Python\
-- Numpy / Matplotlib\
+## 🌙 基于PyTorch的图像分类与人脸识别系统
+### 📌 项目简介
+本项目基于 Python + PyTorch + OpenCV 开发，整合深度学习卷积神经网络与计算机视觉技术。
+整体包含两大核心模块：
+1. 基于CNN轻量模型，实现通用图像分类，支持花卉、动植物、日常物品识别；
+2. 结合OpenCV视觉库，调用本地摄像头，完成实时人脸检测与定位。
 
- 🚀 快速运行\
- 1. 安装依赖\
-bash\
-pip install torch torchvision opencv-python numpy matplotlib\
- 2.运行程序\
-图像分类训练\
-python train_image_classifier.py\
+项目代码结构清晰、轻量化设计，适合深度学习入门、课程设计、实践作业、GitHub项目展示，
+同时具备良好的拓展性，可快速迭代升级。
 
-实时人脸识别\
-python face_detection.py\
+### 🧩 核心功能
+- 图像分类：自动识别图像类别，实现智能视觉判别
+- 实时人脸识别：调用摄像头，动态检测并标记人脸
+- 模型训练：支持自定义数据集训练与参数优化
+- 数据可视化：展示训练损失、准确率变化曲线
+- 功能拓展：可升级为表情识别、目标检测、图像检测等
 
-📁项目结构\
-PyTorch-Image-Face-Recognition/\
-├── data/                # 数据集文件夹\
-├── models/              # 网络模型文件\
-├── utils/               # 工具类代码\
-├── train_image_classifier.py\
-├── face_detection.py\
-└── README.md\
+### ⚙️ 技术栈
+- Python 3.8+
+- PyTorch 2.0+
+- OpenCV-Python
+- Numpy
+- Matplotlib
 
-✅ 项目亮点\
-零基础友好，代码简洁易懂\
-模块化设计，方便修改与复用\
-适配课程作业、实训、简历项目\
-深度学习计算机视觉入门实战\
+### 🚀 快速运行
+#### 1. 安装依赖
+```bash
+pip install torch torchvision opencv-python numpy matplotlib
+```
 
-📌 后续拓展\
-升级 ResNet 等深度网络，提升识别精度\
-新增人脸表情、身份识别功能\
-结合 Web 框架，搭建网页端识别系统\
-拓展图像缺陷检测、智能识别场景\
-Image Classification & Face Recognition Based on PyTorch\
-📌 Project Introduction\
-This project is developed based on Python, PyTorch and OpenCV. It integrates lightweight CNN image classification and real-time face detection.It realizes image recognition and real-time face detection, which is suitable for computer vision learning and practical application.\
-🧩 Features\
-Image classification and recognition\
-Real-time face detection via camera\
-Custom model training\
-Visual analysis of training results\
-Easy to expand and optimize\
-⚙️ Tech Stack\
-Python 3.8+\
-PyTorch\
-Torchvision\
-OpenCV-Python\
-Numpy, Matplotlib\
-🚀 Quick Start\
-bash\
-pip install torch torchvision opencv-python numpy matplotlib\
-✅ Advantages\
-Simple and clear code\
-Beginner-friendly\
-Suitable for practical projects and portfolio\
-Easy for subsequent improvement and expansion\
+#### 2. 运行项目
+```bash
+# 图像分类训练
+python train_image_classifier.py
+
+# 实时人脸识别
+python face_detection.py
+```
+
+### 📁 项目结构
+```
+PyTorch-Image-Face-Recognition/
+├── data/                # 数据集存放文件夹
+├── models/              # 深度学习模型文件
+├── utils/               # 工具函数模块
+├── train_image_classifier.py
+├── face_detection.py
+└── README.md
+```
+
+### ✅ 项目亮点
+- 零基础友好，代码简洁易懂
+- 模块化结构，便于修改与二次开发
+- 适配课程实践、实训报告、简历项目
+- 深度学习+计算机视觉入门优质案例
+
+### 📌 后续拓展方向
+- 升级ResNet等深层网络，提升识别准确率
+- 增加人脸表情识别、身份识别功能
+- 结合Web框架，搭建网页端识别平台
+- 拓展工业图像缺陷检测等实用场景
+
+---
+
+# Image Classification & Face Recognition Based on PyTorch
+### 📌 Project Introduction
+This project is developed based on Python, PyTorch and OpenCV.
+It combines lightweight CNN model and computer vision technology to realize image classification and real-time face detection.
+
+### 🧩 Features
+- Image classification and recognition
+- Real-time face detection via webcam
+- Custom dataset training
+- Training data visualization
+- Flexible expansion and optimization
+
+### ⚙️ Tech Stack
+- Python 3.8+
+- PyTorch
+- Torchvision
+- OpenCV-Python
+- Numpy, Matplotlib
+
+### 🚀 Quick Start
+```bash
+pip install torch torchvision opencv-python numpy matplotlib
+```
+
+### ✅ Project Advantages
+- Simple and standardized code
+- Beginner-friendly design
+- Suitable for academic and practical projects
+- Easy to expand and upgrade
