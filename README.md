@@ -1,46 +1,47 @@
-下面这一整段，你**直接全选、一次复制、粘贴到 GitHub 仓库的 README.md 里**就可以用，无需分段复制。
+# 🚀 PyTorch Image Classification & Face Recognition
 
-```markdown
-# PyTorch-Image-Face-Recognition
-A simple image classification and real-time face recognition system based on PyTorch and OpenCV.
+A simple image classification and real-time face recognition system based on PyTorch and OpenCV
 
 ---
 
-## 🌙 基于PyTorch的图像分类与人脸识别系统
-### 📌 项目简介
-本项目基于 Python + PyTorch + OpenCV 开发，整合深度学习卷积神经网络与计算机视觉技术。
-整体包含两大核心模块：
-1. 基于CNN轻量模型，实现通用图像分类，支持花卉、动植物、日常物品识别；
-2. 结合OpenCV视觉库，调用本地摄像头，完成实时人脸检测与定位。
+# 📌 基于PyTorch的图像分类与人脸识别系统
 
-项目代码结构清晰、轻量化设计，适合深度学习入门、课程设计、实践作业、GitHub项目展示，
-同时具备良好的拓展性，可快速迭代升级。
+## 📖 项目简介
+本项目基于 Python + PyTorch + OpenCV 开发，集成轻量级卷积神经网络图像分类与实时人脸识别功能。
 
----
+主要包含两大模块：
 
-### 🧩 核心功能
-- 图像分类：自动识别图像类别，实现智能视觉判别
-- 实时人脸识别：调用摄像头，动态检测并标记人脸
-- 模型训练：支持自定义数据集训练与参数优化
-- 数据可视化：展示训练损失、准确率变化曲线
-- 功能拓展：可升级为表情识别、目标检测、图像缺陷检测等
+1. 基于 CNN 的图像分类模型，支持花卉、动物、日常物品等图像识别  
+2. 基于 OpenCV 的实时人脸检测，调用摄像头实现动态识别  
+
+项目结构简洁、代码轻量化，适合深度学习入门、课程设计、实践作业及 GitHub 作品展示，便于后期拓展升级。
 
 ---
 
-### ⚙️ 技术栈
-- Python 3.8+
-- PyTorch 2.0+
-- OpenCV-Python
-- Numpy
-- Matplotlib
+## 🧩 核心功能
+
+- 图像分类：自动识别图片类别，完成图像智能判别  
+- 人脸识别：调用电脑摄像头，实时检测并框选人脸  
+- 模型训练：支持自定义数据集训练模型  
+- 数据可视化：展示训练损失、精度变化曲线  
+- 低门槛拓展：可升级为表情识别、目标检测等功能  
 
 ---
 
-### 🚀 快速运行
-#### 1. 安装依赖
+## ⚙️ 技术栈
+
+- Python 3.8+  
+- PyTorch 2.0+  
+- OpenCV-Python  
+- NumPy / Matplotlib  
+
+---
+
+## 🚀 快速运行
+
+### 1️⃣ 安装依赖
 ```bash
 pip install torch torchvision opencv-python numpy matplotlib
-```
 
 #### 2. 运行程序
 - 图像分类训练
