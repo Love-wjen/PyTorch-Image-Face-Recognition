@@ -43,30 +43,30 @@ A simple image classification and real-time face recognition system based on PyT
 ```bash
 pip install torch torchvision opencv-python numpy matplotlib
 
-###2️⃣ 运行程序
+2. 运行程序
 图像分类训练
-<\>Bash
+bash
+运行
 python train_image_classifier.py
-实施人脸识别
-<\>bash
+实时人脸识别
+bash
+运行
 python face_detection.py
-
-##📁 项目结构
+📂 项目结构
+plaintext
 PyTorch-Image-Face-Recognition/
-├── data/                # 数据集文件夹
-├── models/              # 网络模型文件
-├── utils/               # 工具类代码
+├── data/                  # 数据集文件夹
+├── models/                # 网络模型文件
+├── utils/                 # 工具类代码
 ├── train_image_classifier.py
 ├── face_detection.py
 └── README.md
-
-##✅ 项目亮点
+✅ 项目亮点
 零基础友好，代码简洁易懂
 模块化设计，方便修改与复用
 适配课程作业、实训、简历项目
 深度学习计算机视觉入门实战
-
-##📌 后续拓展
+🚀 后续拓展
 升级 ResNet 等深度网络，提升识别精度
 新增人脸表情、身份识别功能
 结合 Web 框架，搭建网页端识别系统
