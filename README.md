@@ -45,10 +45,10 @@ pip install torch torchvision opencv-python numpy matplotlib
 
 ###2️⃣ 运行程序
 图像分类训练
-```bash
+<\>Bash
 python train_image_classifier.py
 实施人脸识别
-```bash
+<\>bash
 python face_detection.py
 
 ##📁 项目结构
