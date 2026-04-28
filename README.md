@@ -1,4 +1,4 @@
- PyTorch-Image-Face-Recognition
+ PyTorch-Image-Face-Recognition\
 A simple image classification and real-time face recognition system based on PyTorch and OpenCV
 
  基于PyTorch的图像分类与人脸识别系统
