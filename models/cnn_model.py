@@ -9,7 +9,8 @@ class SimpleCNN(nn.Module):
         self.conv2 = nn.Conv2d(16, 32, 3, padding=1)
         self.pool = nn.MaxPool2d(2, 2)
 
-        self.fc1 = nn.Linear(32 * 56 * 56, 128)
+        self.pool = nn.AdaptiveAvgPool2d((7,7))
+        self.fc1 = nn.Linear(32 * 7 * 7, 128)
         self.fc2 = nn.Linear(128, num_classes)
 
     def forward(self, x):
