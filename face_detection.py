@@ -22,5 +22,5 @@ while True:
     if cv2.waitKey(1) & 0xFF == ord("q"):
         break
 
-cap.release()
+cap = cv2.VideoCapture(0)
 cv2.destroyAllWindows()
